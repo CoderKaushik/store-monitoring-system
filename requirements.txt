@@ -1,0 +1,9 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]  # The server to run our app
+sqlalchemy
+pandas          # For reading CSVs
+python-dotenv   # For managing environment variables (like DB connection string)
+psycopg2-binary # Driver for PostgreSQL, if you use it. Use 'sqlite' for sqlite.
+pytz            # A robust library for timezone calculations
