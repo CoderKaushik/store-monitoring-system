@@ -6,7 +6,7 @@ The system is built to handle complex time-series data, including timezone conve
 
 ---
 
-## ✨ Features
+## Features
 
 * **Asynchronous API:** Built with FastAPI to handle requests efficiently, featuring a non-blocking, trigger-and-poll architecture for report generation.
 * **Database Integration:** Uses SQLAlchemy ORM to model and interact with a SQLite database for persistent data storage.
@@ -18,7 +18,7 @@ The system is built to handle complex time-series data, including timezone conve
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Language:** Python 3.9+
 * **Framework:** FastAPI
@@ -29,7 +29,7 @@ The system is built to handle complex time-series data, including timezone conve
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 The project follows a logical and modular structure to separate concerns:
 
@@ -57,7 +57,7 @@ The project follows a logical and modular structure to separate concerns:
 
 ---
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
 Follow these steps to set up and run the project locally.
 
@@ -69,8 +69,8 @@ Follow these steps to set up and run the project locally.
 ### 2. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <your-project-folder>
+git clone https://github.com/CoderKaushik/store-monitoring-system
+cd store-monitoring-system
 ```
 
 ### 3. Create a Virtual Environment
@@ -96,7 +96,7 @@ Install all required packages from the requirements.txt file.
 pip install -r requirements.txt
 ```
 
-### ▶️ Running the Application
+### Running the Application
 
 The application requires a two-step process to run: first ingest the data, then start the API server.
 
@@ -131,7 +131,7 @@ You can interact with the API using any HTTP client or by using the auto-generat
 
 ---
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### 1. Trigger Report Generation
 
@@ -159,7 +159,7 @@ You can interact with the API using any HTTP client or by using the auto-generat
 
 ---
 
-## 🧠 Core Logic Explained
+## Core Logic Explained
 
 The main challenge of this project was to accurately calculate uptime/downtime within business hours. The approach taken was:
 
