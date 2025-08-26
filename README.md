@@ -159,6 +159,22 @@ You can interact with the API using any HTTP client or by using the auto-generat
 
 ---
 
+---
+
+## Future Improvements
+
+* **Multithreading/Multiprocessing:** Implement parallel processing for report generation to handle large datasets and multiple stores more efficiently.
+* **Advanced Algorithms:** Enhance the logic in `report_logic.py` with more sophisticated statistical methods or machine learning models for anomaly detection and predictive analytics.
+* **Database Scalability:** Add support for PostgreSQL or other scalable databases for production deployments.
+* **Role-Based Access Control:** Integrate authentication and authorization to secure API endpoints.
+* **Real-Time Monitoring:** Add WebSocket endpoints for live status updates and notifications.
+* **Automated Testing:** Expand unit and integration test coverage for all modules.
+* **Configurable Business Rules:** Allow dynamic configuration of business hours, holidays, and custom reporting intervals via the API.
+* **API Rate Limiting:** Protect endpoints from abuse with rate limiting and monitoring.
+* **Improved Error Handling:** Provide more granular error messages and logging for easier debugging and maintenance.
+
+---
+
 ## Core Logic Explained
 
 The main challenge of this project was to accurately calculate uptime/downtime within business hours. The approach taken was:
